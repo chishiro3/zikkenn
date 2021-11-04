@@ -11,5 +11,5 @@ for i in range(n):
     cv2.imshow('frame', frame)
     cv2.imwrite(f'{dir}/picture-{i:03d}.png', frame)
     cv2.waitKey(t)
-    cap.release()
+cap.release()
 cv2.destroyAllWindows()
